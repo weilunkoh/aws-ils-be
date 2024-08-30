@@ -1,0 +1,2 @@
+docker run -d -p 5000:5000 --rm --name mitb-aws-ils-be mitb/aws-ils-be:1.1.0 gunicorn --workers 1 --threads 4 -b 0.0.0.0:5000 app:app
+@REM docker run -d -p 5000:5000 --name mitb-aws-ils-be mitb/aws-ils-be:1.1.0 gunicorn --workers 1 --threads 4 -b 0.0.0.0:5000 app:app
